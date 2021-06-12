@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junior [__Front-End__] Entwickler und Junior [__Software__] Tester</title>
+  <link rel="icon" href="icon/startup.svg">
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/container.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/section.css">
+  <link rel="stylesheet" href="css/tableContainer.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet">
+</head>
+<body class="body lightSlateGreyBackground">
+  <div id="homepage" class="container">
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--EN-LSG-/"><button class="section__button">EN</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--RU-LSG-/"><button class="section__button">RU</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--ES-LSG-/"><button class="section__button">ES</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--PL-LSG-/"><button class="section__button">PL</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--UA-LSG-/"><button class="section__button">UA</button></a>
+    <a class="section__button--link" href="https://mr-front-end-dev.github.io/Homepage--DE-LSGr-/"><button class="section__button section__button--lightseagreen">🌓</button></a>
+    <nav class="nav">
+      <ul class="navUL">
+        <a class="navLink" href="#homepage">
+          <li class="navLinkLI">Startseite 📃</li>
+        </a>
+        <a class="navLink" href="#about-author">
+          <li class="navLinkLI">Über den Autor</li>
+        </a>
+        <a class="navLink" href="#my-skills">
+          <li class="navLinkLI">Meine Fähigkeiten 🚀</li>
+        </a>
+        <a class="navLink" href="#interaction-in-js">
+          <li class="navLinkLI navLinkLI--border-bottom">Interaktion in JS</li>
+        </a>
+      </ul>
+    </nav>
+    <main>
+      <header class="header headerCentered">
+        <img class="sectionHeaderIMG imageColor" src="image/Nikita__Rysiev.jpg" alt="Nikita Rysiev">
+        <h1 class="sectionHeaderH1 nameColor">Nikita Rysiev</h1>
+      </header>
+      <section id="about-author" class="section">
+        <h3 class="section__header">Hallo! Mein Name ist Nick und ich bin ein Anfänger Junior Front End Developer und Junior Manual Software Tester.</h3>
+        <p class="section__paragraph">Meine Muttersprache ist Russisch, aber ich lerne und übe mehr Englisch, Polnisch und etwas Deutsch.</p>
+        <p class="section__paragraph">Jetzt versuche ich, Softwaretests und etwas Codierung einfacher Webanwendungen zu studieren.</p>
+        <p class="section__paragraph">Ich möchte Programmieren und Englisch sehr gut sprechen können, um auf dem Arbeitsmarkt nützlich zu sein.</p>
+      </section>
+      <section id="my-skills">
+        <div class="tableContainer">
+          <table class="table tabelAboutMySkills">
+            <caption class="tableCaptionAboutMySkills">Meine Fähigkeiten 🚀 (was ich lerne)</caption>
+            <tr class="tableTR">
+              <th class="tableTH">Frontend</th>
+              <th class="tableTH">Sprachen</th>
+              <th class="tableTH">Softwaretest</th>
+              <th class="tableTH">Was möchte ich mehr wissen?</th>
+              <th class="tableTH">Verschiedene</th>
+            </tr>
+            <tr class="tableTR">
+              <td class="tableTD">HTML 5+</td>
+              <td class="tableTD">Deutsche Sprache A1+</td>
+              <td class="tableTD">MySQL</td>
+              <td class="tableTD">SQL</td>
+              <td class="tableTD">Initiative</td>
+            </tr>
+            <tr class="tableTR">
+              <td class="tableTD">CSS 3+</td>
+              <td class="tableTD">Englische Sprache B1+ &#127468&#127463</td>
+              <td class="tableTD">Postman</td>
+              <td class="tableTD">Java 11+</td>
+              <td class="tableTD">Planung &#128198;</td>
+            </tr>
+            <tr class="tableTR">
+              <td class="tableTD">JavaScript ESC 6+</td>
+              <td class="tableTD">Polnische Sprache B2+</td>
+              <td class="tableTD">SoapUI</td>
+              <td class="tableTD">Linux 🐧</td>
+              <td class="tableTD">Teamwork</td>
+            </tr>
+            <tr class="tableTR">
+              <td class="tableTD">React.js v17.0+ </td>
+              <td class="tableTD">Russische Sprache C1+</td>
+              <td class="tableTD">Selenium IDE</td>
+              <td class="tableTD">Selenium WebDriver</td>
+              <td class="tableTD">Kommunikation</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <div class="div__underline--white underlineColor"></div>
+      <section id="interaction-in-js" class="section">
+        <p>
+          <button class="button js-changeBackground">Hintergrund ändern an <span
+              class="js-nextColorName">hellgrau</span></button>
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>
+        Hergestellt mit 🔒 von Nikita Rysiev
+      </p>
+      <p>
+        Alle Rechte vorbehalten 📃
+      </p>
+    </footer>
+  </div>
+  <script defer src="js/script.js"></script>
+</body>
+
+</html>

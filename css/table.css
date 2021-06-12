@@ -1,0 +1,54 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabelAboutMySkills {
+  color: hsl(210, 13%, 55%);
+  background-color: hsl(210, 13%, 55%);
+  cursor: context-menu;
+}
+
+.tableCaptionAboutMySkills {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(210, 13%, 55%);
+  font-weight: bold;
+  padding: 15px;
+  cursor: context-menu;
+}
+
+.tableTH {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(210, 14%, 36%);
+  padding: 10px;
+  transition: background 0.3s;
+  cursor: context-menu;
+}
+
+.tableTH:hover {
+  background-color: hsl(203, 92%, 55%);
+  color: hsl(0, 0%, 100%);
+}
+
+.tableTD {
+  color: hsl(210, 13%, 55%);
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  transition: color 0.3s;
+  cursor: context-menu;
+}
+
+.tableTD:hover {
+  background-color: hsl(177, 70%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.tableTH, .tableTD {
+  text-align: center;
+  border: 1px solid hsl(210, 13%, 55%);
+}
+
+.tableTR:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(210, 13%, 55%);
+}

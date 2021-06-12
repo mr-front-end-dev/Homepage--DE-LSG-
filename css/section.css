@@ -1,0 +1,60 @@
+.section__button {
+  background-color: hsl(0, 0%, 100%);
+  border-style: none;
+  font-size: 14px;
+  padding: 8px;
+  margin: 5px;
+  transition: 0.1s;
+  cursor: context-menu;
+}
+
+.section__button--lightseagreen.section__button--lightseagreen  {
+  background-color: hsl(177, 70%, 41%);
+  color:hsl(0, 0%, 100%);
+}
+
+.section__button--lightseagreen.section__button--lightseagreen:hover  {
+  background-color: hsl(177, 70%, 46%);
+}
+
+.section__button:hover {
+  background-color: hsl(0, 0%, 93%);
+}
+
+.section__button--link {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
+.section {
+  cursor: context-menu;
+}
+
+.headerCentered {
+  text-align: center;
+}
+
+.sectionHeaderIMG {
+  border-radius: 50%;
+  width: 150px;
+  border: 6px solid hsl(0, 0%, 100%);
+  margin-top: 15px;
+  margin-bottom: 0;
+  box-shadow: 3px 3px 15px hsl(0, 0%, 100%); 
+}
+
+.sectionHeaderH1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 33px;
+  cursor: context-menu;
+}
+
+.div__underline--white {
+  padding: 10px;
+  width: 100%;
+  border-bottom: 3px solid hsl(0, 0%, 100%); 
+}
+
+.section__header, .section__paragraph {
+  color: hsl(210, 14%, 63%);
+}
